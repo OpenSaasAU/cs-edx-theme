@@ -70,16 +70,16 @@ h4 {
 	margin: 0 0 25px 0 ;
 	font-size:1.42857142857143em;/*20px;*/
 	font-weight:400;
-	text-transform:uppercase;
-  	color: #7F851F;
+	/*text-transform:uppercase;*/
+  color: #7F851F;
 	line-height:1em;
 }
 h5 { 
 	margin: 0 0 25px 0 ;
 	font-size:1.42857142857143em;/*20px;*/
 	font-weight:400;
-	text-transform:uppercase;
-  	color: #CD6C00;
+	/* text-transform:uppercase; */
+  color: #CD6C00;
 	line-height:1em;
 }
 
@@ -109,10 +109,11 @@ p {
 
 /* UNORDERED LIST */
 ul {
-	list-style:none;
-	margin: 20px 0;
-	padding:0;
+	list-style: none;
+	margin: 20px 0 0 2em !important;
+	padding: 0;
 }
+
 /*ul li {
 		padding: 0 0 5px 25px;
 		background:url(../img/li-diamond.png) no-repeat 3px 5px;
@@ -151,6 +152,21 @@ ol
 	font-size:1em; /* 14 / 14 */
 }
 
+th, td {
+	border: 1px solid #ddd !important;
+}
+
+th {
+	background-color: #e6e6e6 !important;
+}
+
+
+
+
+
+
+
+
 	@media screen and (max-width:500px) {
 		.table th, .table td {
 			font-size:0.85em;
@@ -169,14 +185,10 @@ hr {
 /* Block Quote (indented text) */
 
 blockquote {
-	background:url(../images/bg-blockquote.png) no-repeat bottom center;
-	font-size:1.28571428571429em; /* 18 / 14 */
 	font-weight:100;
-	font-style:italic;
-	color:#818822;
-	padding:35px 5%;
-	margin:0;
-	line-height:1.8em;
+	margin:10em;
+	line-height:1em;
+	font-style: normal
 }
 
 /* LINKS AND FILES ELEMENT */
@@ -368,7 +380,68 @@ ul.auth-types {
     width: 33.33333333%;
 }
 
+/*!
+Styles added by Tim Godfrey for the course Jesus in the Gospel of Mark (part 1)
+*/
+.attribution{
+	margin:0.5em 20px;
+	font-style: normal;
+	font-size: 0.8em !important;
+}
 
+.attribution::before{
+	content: "-";
+}
+
+.narration{
+	background: #f9f9f9; 
+	border-left: 5px solid #CC6B00; 
+	margin: 1.5em 10px; 
+	padding: 2em;" 
+}
+
+.exposition{
+	background: #f9f9f9; 
+/* 	border-left: 5px solid #903;  */
+	margin: 1.5em 10px; 
+	padding: 2em;
+	border-left: 5px solid #e8e8e8; 
+}
+
+quote, q{
+	font-family: "Ubuntu Condensed";
+}
+
+/*!
+Styles added by Hannah Sunderland for the course Jesus in the Gospel of Mark (part 1)
+*/
+
+.clickmebutton {
+	color: #003366;
+	font-family:georgia, palatino;
+	border-radius: 5px;
+  margin: 1.5em 10px;
+  padding: 1em;
+	background-color: #CC6B00;
+}
+
+.clickmebutton a {
+	color: #fff !important;
+}
+
+.clickmebutton a:hover {
+	color: #fff !important;
+	font-size: 1.05em;
+}
+
+.essay {
+	background: #f9f9f9; 
+	margin: 1.5em 10px; 
+	padding: 2em;
+  font-family: georgia, palatino, serif !important;
+	line-height: 1.8em !important;
+	
+}
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
