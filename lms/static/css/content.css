@@ -417,12 +417,12 @@ Styles added by Hannah Sunderland for the course Jesus in the Gospel of Mark (pa
 */
 
 .clickmebutton {
-	color: #003366;
-	font-family:georgia, palatino;
-	border-radius: 5px;
-  margin: 1.5em 10px;
-  padding: 1em;
-	background-color: #CC6B00;
+background: #f9f9f9;
+border-radius: 20px;
+margin: 1.5em 10px;
+padding: 2em;
+color: #003366;
+font-family: georgia, palatino;
 }
 
 .clickmebutton a {
