@@ -19,6 +19,10 @@
 #bannerText {
   margin: 0; }
 
+.course-profile {
+  padding-bottom: 150px;
+}
+
 header {
  /* position: fixed;
   top: 0;
